@@ -31,7 +31,7 @@ export const axiosInstanceInventory = axios.create({
     baseURL: SITE_URL_INVENTORY,
 });
 
-export const SITE_URL_WATER="http://jrdc.bpositivelk.com/";
+export const SITE_URL_WATER="https://research.jrdc.lk/";
 
 export const axiosInstanceWaterModule = axios.create({
     baseURL: SITE_URL_WATER,
