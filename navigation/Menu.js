@@ -81,7 +81,7 @@ class CustomDrawerContent extends React.Component {
           <Block>
             <Text
               color="white"
-              size={14}
+              size={18}
               style={{ fontFamily: 'montserrat-bold', marginLeft: 12 }}
             >
               {this.state.name}
@@ -89,7 +89,7 @@ class CustomDrawerContent extends React.Component {
             <Text
               color="white"
               size={12}
-              style={{ fontFamily: 'montserrat-bold', marginLeft: 12, marginTop: theme.SIZES.BASE / 2 }}
+              style={{  marginLeft: 12, marginTop: theme.SIZES.BASE / 2 }}
             >
               {this.state.email}
             </Text>

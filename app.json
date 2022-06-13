@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "JRDC",
-    "slug": "jrdc1-app",
+    "slug": "jrdc-app",
     "version": "1.0.0",
     "privacy": "public",
     "platforms": [
