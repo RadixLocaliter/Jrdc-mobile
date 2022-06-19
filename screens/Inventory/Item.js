@@ -97,8 +97,8 @@ export default class Item extends React.Component {
                         </DataTable.Header>
                         {this.state.items.map((res, index) => {
                             return (
-                                <>
-                                    <DataTable.Row key={index} >
+                                <Block key={index}>
+                                    <DataTable.Row>
                                         <DataTable.Cell>
                                             <Text
                                                 size={14}
@@ -136,7 +136,7 @@ export default class Item extends React.Component {
                                             </Text>
                                         </DataTable.Cell>
                                     </DataTable.Row>                                 
-                                </>
+                                </Block>
                             )
                         })
                         }
